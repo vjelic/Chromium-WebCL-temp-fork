@@ -1,0 +1,1384 @@
+{
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "Glog.AI",
+          "organization": "Glog.AI",
+          "fullName": "Glog, Making software more secure",
+          "version": "1.0.0",
+          "semanticVersion": "1.0.0",
+          "informationUri": "https://www.glog.ai",
+          "rules": [
+            {
+              "id": "DS176209",
+              "name": "SuspiciousComment",
+              "shortDescription": {
+                "text": "A \"TODO\" or similar was left in source code, possibly indicating incomplete functionality"
+              },
+              "fullDescription": {
+                "text": "Suspicious comment: A \"TODO\" or similar was left in source code, possibly indicating incomplete functionality"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "note"
+              },
+              "helpUri": "https://github.com/Microsoft/DevSkim/blob/main/guidance/DS176209.md",
+              "help": {
+                "text": "A \"TODO\" or similar was left in source code, possibly indicating incomplete functionality",
+                "markdown": "Visit [https://github.com/Microsoft/DevSkim/blob/main/guidance/DS176209.md](https://github.com/Microsoft/DevSkim/blob/main/guidance/DS176209.md) for guidance on this issue."
+              },
+              "properties": {
+                "DevSkimSeverity": "ManualReview",
+                "DevSkimConfidence": "High",
+                "precision": "high",
+                "problem.severity": "recommendation",
+                "tags": [
+                  "DS176209"
+                ]
+              }
+            },
+            {
+              "id": "DS176209",
+              "name": "SuspiciousComment",
+              "shortDescription": {
+                "text": "A \"TODO\" or similar was left in source code, possibly indicating incomplete functionality"
+              },
+              "fullDescription": {
+                "text": "Suspicious comment: A \"TODO\" or similar was left in source code, possibly indicating incomplete functionality"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "note"
+              },
+              "helpUri": "https://github.com/Microsoft/DevSkim/blob/main/guidance/DS176209.md",
+              "help": {
+                "text": "A \"TODO\" or similar was left in source code, possibly indicating incomplete functionality",
+                "markdown": "Visit [https://github.com/Microsoft/DevSkim/blob/main/guidance/DS176209.md](https://github.com/Microsoft/DevSkim/blob/main/guidance/DS176209.md) for guidance on this issue."
+              },
+              "properties": {
+                "DevSkimSeverity": "ManualReview",
+                "DevSkimConfidence": "High",
+                "precision": "high",
+                "problem.severity": "recommendation",
+                "tags": [
+                  "DS176209"
+                ]
+              }
+            },
+            {
+              "id": "DS176209",
+              "name": "SuspiciousComment",
+              "shortDescription": {
+                "text": "A \"TODO\" or similar was left in source code, possibly indicating incomplete functionality"
+              },
+              "fullDescription": {
+                "text": "Suspicious comment: A \"TODO\" or similar was left in source code, possibly indicating incomplete functionality"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "note"
+              },
+              "helpUri": "https://github.com/Microsoft/DevSkim/blob/main/guidance/DS176209.md",
+              "help": {
+                "text": "A \"TODO\" or similar was left in source code, possibly indicating incomplete functionality",
+                "markdown": "Visit [https://github.com/Microsoft/DevSkim/blob/main/guidance/DS176209.md](https://github.com/Microsoft/DevSkim/blob/main/guidance/DS176209.md) for guidance on this issue."
+              },
+              "properties": {
+                "DevSkimSeverity": "ManualReview",
+                "DevSkimConfidence": "High",
+                "precision": "high",
+                "problem.severity": "recommendation",
+                "tags": [
+                  "DS176209"
+                ]
+              }
+            },
+            {
+              "id": "DS176209",
+              "name": "SuspiciousComment",
+              "shortDescription": {
+                "text": "A \"TODO\" or similar was left in source code, possibly indicating incomplete functionality"
+              },
+              "fullDescription": {
+                "text": "Suspicious comment: A \"TODO\" or similar was left in source code, possibly indicating incomplete functionality"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "note"
+              },
+              "helpUri": "https://github.com/Microsoft/DevSkim/blob/main/guidance/DS176209.md",
+              "help": {
+                "text": "A \"TODO\" or similar was left in source code, possibly indicating incomplete functionality",
+                "markdown": "Visit [https://github.com/Microsoft/DevSkim/blob/main/guidance/DS176209.md](https://github.com/Microsoft/DevSkim/blob/main/guidance/DS176209.md) for guidance on this issue."
+              },
+              "properties": {
+                "DevSkimSeverity": "ManualReview",
+                "DevSkimConfidence": "High",
+                "precision": "high",
+                "problem.severity": "recommendation",
+                "tags": [
+                  "DS176209"
+                ]
+              }
+            }
+          ],
+          "language": "en-US",
+          "contents": [
+            "localizedData",
+            "nonLocalizedData"
+          ],
+          "isComprehensive": false
+        }
+      },
+      "language": "en-US",
+      "results": [
+        {
+          "ruleId": "DS176209",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Suspicious comment"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/gpu/command_buffer/service/gles2_cmd_decoder.cc"
+                },
+                "region": {
+                  "startLine": 10187,
+                  "startColumn": 5,
+                  "endLine": 10187,
+                  "endColumn": 9,
+                  "charOffset": 344407,
+                  "charLength": 4,
+                  "snippet": {
+                    "text": "TODO",
+                    "rendered": {
+                      "text": "TODO",
+                      "markdown": "`TODO`"
+                    }
+                  },
+                  "sourceLanguage": "cpp"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "DevSkimSeverity": "ManualReview",
+            "DevSkimConfidence": "High",
+            "tags": [
+              "Hygiene.Comment.Suspicious"
+            ]
+          }
+        },
+        {
+          "ruleId": "DS176209",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Suspicious comment"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/gpu/command_buffer/service/gles2_cmd_decoder.cc"
+                },
+                "region": {
+                  "startLine": 9706,
+                  "startColumn": 7,
+                  "endLine": 9706,
+                  "endColumn": 11,
+                  "charOffset": 329063,
+                  "charLength": 4,
+                  "snippet": {
+                    "text": "TODO",
+                    "rendered": {
+                      "text": "TODO",
+                      "markdown": "`TODO`"
+                    }
+                  },
+                  "sourceLanguage": "cpp"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "DevSkimSeverity": "ManualReview",
+            "DevSkimConfidence": "High",
+            "tags": [
+              "Hygiene.Comment.Suspicious"
+            ]
+          }
+        },
+        {
+          "ruleId": "DS176209",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Suspicious comment"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/gpu/command_buffer/service/gles2_cmd_decoder.cc"
+                },
+                "region": {
+                  "startLine": 10351,
+                  "startColumn": 7,
+                  "endLine": 10351,
+                  "endColumn": 11,
+                  "charOffset": 351189,
+                  "charLength": 4,
+                  "snippet": {
+                    "text": "TODO",
+                    "rendered": {
+                      "text": "TODO",
+                      "markdown": "`TODO`"
+                    }
+                  },
+                  "sourceLanguage": "cpp"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "DevSkimSeverity": "ManualReview",
+            "DevSkimConfidence": "High",
+            "tags": [
+              "Hygiene.Comment.Suspicious"
+            ]
+          }
+        },
+        {
+          "ruleId": "DS176209",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Suspicious comment"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/gpu/command_buffer/service/gles2_cmd_decoder.cc"
+                },
+                "region": {
+                  "startLine": 9195,
+                  "startColumn": 7,
+                  "endLine": 9195,
+                  "endColumn": 11,
+                  "charOffset": 312614,
+                  "charLength": 4,
+                  "snippet": {
+                    "text": "TODO",
+                    "rendered": {
+                      "text": "TODO",
+                      "markdown": "`TODO`"
+                    }
+                  },
+                  "sourceLanguage": "cpp"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "DevSkimSeverity": "ManualReview",
+            "DevSkimConfidence": "High",
+            "tags": [
+              "Hygiene.Comment.Suspicious"
+            ]
+          }
+        },
+        {
+          "ruleId": "DS176209",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Suspicious comment"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/gpu/command_buffer/service/gles2_cmd_decoder.cc"
+                },
+                "region": {
+                  "startLine": 9180,
+                  "startColumn": 5,
+                  "endLine": 9180,
+                  "endColumn": 9,
+                  "charOffset": 312130,
+                  "charLength": 4,
+                  "snippet": {
+                    "text": "TODO",
+                    "rendered": {
+                      "text": "TODO",
+                      "markdown": "`TODO`"
+                    }
+                  },
+                  "sourceLanguage": "cpp"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "DevSkimSeverity": "ManualReview",
+            "DevSkimConfidence": "High",
+            "tags": [
+              "Hygiene.Comment.Suspicious"
+            ]
+          }
+        },
+        {
+          "ruleId": "DS176209",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Suspicious comment"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/gpu/command_buffer/service/gles2_cmd_decoder.cc"
+                },
+                "region": {
+                  "startLine": 9004,
+                  "startColumn": 9,
+                  "endLine": 9004,
+                  "endColumn": 13,
+                  "charOffset": 306439,
+                  "charLength": 4,
+                  "snippet": {
+                    "text": "TODO",
+                    "rendered": {
+                      "text": "TODO",
+                      "markdown": "`TODO`"
+                    }
+                  },
+                  "sourceLanguage": "cpp"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "DevSkimSeverity": "ManualReview",
+            "DevSkimConfidence": "High",
+            "tags": [
+              "Hygiene.Comment.Suspicious"
+            ]
+          }
+        },
+        {
+          "ruleId": "DS176209",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Suspicious comment"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/gpu/command_buffer/service/gles2_cmd_decoder.cc"
+                },
+                "region": {
+                  "startLine": 8835,
+                  "startColumn": 7,
+                  "endLine": 8835,
+                  "endColumn": 11,
+                  "charOffset": 300444,
+                  "charLength": 4,
+                  "snippet": {
+                    "text": "TODO",
+                    "rendered": {
+                      "text": "TODO",
+                      "markdown": "`TODO`"
+                    }
+                  },
+                  "sourceLanguage": "cpp"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "DevSkimSeverity": "ManualReview",
+            "DevSkimConfidence": "High",
+            "tags": [
+              "Hygiene.Comment.Suspicious"
+            ]
+          }
+        },
+        {
+          "ruleId": "DS176209",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Suspicious comment"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/gpu/command_buffer/service/gles2_cmd_decoder.cc"
+                },
+                "region": {
+                  "startLine": 8830,
+                  "startColumn": 5,
+                  "endLine": 8830,
+                  "endColumn": 9,
+                  "charOffset": 300079,
+                  "charLength": 4,
+                  "snippet": {
+                    "text": "TODO",
+                    "rendered": {
+                      "text": "TODO",
+                      "markdown": "`TODO`"
+                    }
+                  },
+                  "sourceLanguage": "cpp"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "DevSkimSeverity": "ManualReview",
+            "DevSkimConfidence": "High",
+            "tags": [
+              "Hygiene.Comment.Suspicious"
+            ]
+          }
+        },
+        {
+          "ruleId": "DS176209",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Suspicious comment"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/gpu/command_buffer/service/gles2_cmd_decoder.cc"
+                },
+                "region": {
+                  "startLine": 8749,
+                  "startColumn": 11,
+                  "endLine": 8749,
+                  "endColumn": 15,
+                  "charOffset": 297171,
+                  "charLength": 4,
+                  "snippet": {
+                    "text": "TODO",
+                    "rendered": {
+                      "text": "TODO",
+                      "markdown": "`TODO`"
+                    }
+                  },
+                  "sourceLanguage": "cpp"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "DevSkimSeverity": "ManualReview",
+            "DevSkimConfidence": "High",
+            "tags": [
+              "Hygiene.Comment.Suspicious"
+            ]
+          }
+        },
+        {
+          "ruleId": "DS176209",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Suspicious comment"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/gpu/command_buffer/service/gles2_cmd_decoder.cc"
+                },
+                "region": {
+                  "startLine": 8725,
+                  "startColumn": 26,
+                  "endLine": 8725,
+                  "endColumn": 30,
+                  "charOffset": 296174,
+                  "charLength": 4,
+                  "snippet": {
+                    "text": "TODO",
+                    "rendered": {
+                      "text": "TODO",
+                      "markdown": "`TODO`"
+                    }
+                  },
+                  "sourceLanguage": "cpp"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "DevSkimSeverity": "ManualReview",
+            "DevSkimConfidence": "High",
+            "tags": [
+              "Hygiene.Comment.Suspicious"
+            ]
+          }
+        },
+        {
+          "ruleId": "DS176209",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Suspicious comment"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/gpu/command_buffer/service/gles2_cmd_decoder.cc"
+                },
+                "region": {
+                  "startLine": 8691,
+                  "startColumn": 5,
+                  "endLine": 8691,
+                  "endColumn": 9,
+                  "charOffset": 294673,
+                  "charLength": 4,
+                  "snippet": {
+                    "text": "TODO",
+                    "rendered": {
+                      "text": "TODO",
+                      "markdown": "`TODO`"
+                    }
+                  },
+                  "sourceLanguage": "cpp"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "DevSkimSeverity": "ManualReview",
+            "DevSkimConfidence": "High",
+            "tags": [
+              "Hygiene.Comment.Suspicious"
+            ]
+          }
+        },
+        {
+          "ruleId": "DS176209",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Suspicious comment"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/gpu/command_buffer/service/gles2_cmd_decoder.cc"
+                },
+                "region": {
+                  "startLine": 7876,
+                  "startColumn": 5,
+                  "endLine": 7876,
+                  "endColumn": 9,
+                  "charOffset": 267570,
+                  "charLength": 4,
+                  "snippet": {
+                    "text": "TODO",
+                    "rendered": {
+                      "text": "TODO",
+                      "markdown": "`TODO`"
+                    }
+                  },
+                  "sourceLanguage": "cpp"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "DevSkimSeverity": "ManualReview",
+            "DevSkimConfidence": "High",
+            "tags": [
+              "Hygiene.Comment.Suspicious"
+            ]
+          }
+        },
+        {
+          "ruleId": "DS176209",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Suspicious comment"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/gpu/command_buffer/service/gles2_cmd_decoder.cc"
+                },
+                "region": {
+                  "startLine": 7703,
+                  "startColumn": 5,
+                  "endLine": 7703,
+                  "endColumn": 9,
+                  "charOffset": 261325,
+                  "charLength": 4,
+                  "snippet": {
+                    "text": "TODO",
+                    "rendered": {
+                      "text": "TODO",
+                      "markdown": "`TODO`"
+                    }
+                  },
+                  "sourceLanguage": "cpp"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "DevSkimSeverity": "ManualReview",
+            "DevSkimConfidence": "High",
+            "tags": [
+              "Hygiene.Comment.Suspicious"
+            ]
+          }
+        },
+        {
+          "ruleId": "DS176209",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Suspicious comment"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/gpu/command_buffer/service/gles2_cmd_decoder.cc"
+                },
+                "region": {
+                  "startLine": 10199,
+                  "startColumn": 5,
+                  "endLine": 10199,
+                  "endColumn": 9,
+                  "charOffset": 344987,
+                  "charLength": 4,
+                  "snippet": {
+                    "text": "TODO",
+                    "rendered": {
+                      "text": "TODO",
+                      "markdown": "`TODO`"
+                    }
+                  },
+                  "sourceLanguage": "cpp"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "DevSkimSeverity": "ManualReview",
+            "DevSkimConfidence": "High",
+            "tags": [
+              "Hygiene.Comment.Suspicious"
+            ]
+          }
+        },
+        {
+          "ruleId": "DS176209",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Suspicious comment"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/gpu/command_buffer/service/gles2_cmd_decoder.cc"
+                },
+                "region": {
+                  "startLine": 6419,
+                  "startColumn": 9,
+                  "endLine": 6419,
+                  "endColumn": 13,
+                  "charOffset": 219573,
+                  "charLength": 4,
+                  "snippet": {
+                    "text": "TODO",
+                    "rendered": {
+                      "text": "TODO",
+                      "markdown": "`TODO`"
+                    }
+                  },
+                  "sourceLanguage": "cpp"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "DevSkimSeverity": "ManualReview",
+            "DevSkimConfidence": "High",
+            "tags": [
+              "Hygiene.Comment.Suspicious"
+            ]
+          }
+        },
+        {
+          "ruleId": "DS176209",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Suspicious comment"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/gpu/command_buffer/service/gles2_cmd_decoder.cc"
+                },
+                "region": {
+                  "startLine": 6413,
+                  "startColumn": 7,
+                  "endLine": 6413,
+                  "endColumn": 11,
+                  "charOffset": 219296,
+                  "charLength": 4,
+                  "snippet": {
+                    "text": "TODO",
+                    "rendered": {
+                      "text": "TODO",
+                      "markdown": "`TODO`"
+                    }
+                  },
+                  "sourceLanguage": "cpp"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "DevSkimSeverity": "ManualReview",
+            "DevSkimConfidence": "High",
+            "tags": [
+              "Hygiene.Comment.Suspicious"
+            ]
+          }
+        },
+        {
+          "ruleId": "DS176209",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Suspicious comment"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/gpu/command_buffer/service/gles2_cmd_decoder.cc"
+                },
+                "region": {
+                  "startLine": 6344,
+                  "startColumn": 9,
+                  "endLine": 6344,
+                  "endColumn": 13,
+                  "charOffset": 216879,
+                  "charLength": 4,
+                  "snippet": {
+                    "text": "TODO",
+                    "rendered": {
+                      "text": "TODO",
+                      "markdown": "`TODO`"
+                    }
+                  },
+                  "sourceLanguage": "cpp"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "DevSkimSeverity": "ManualReview",
+            "DevSkimConfidence": "High",
+            "tags": [
+              "Hygiene.Comment.Suspicious"
+            ]
+          }
+        },
+        {
+          "ruleId": "DS176209",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Suspicious comment"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/gpu/command_buffer/service/gles2_cmd_decoder.cc"
+                },
+                "region": {
+                  "startLine": 5233,
+                  "startColumn": 7,
+                  "endLine": 5233,
+                  "endColumn": 11,
+                  "charOffset": 179874,
+                  "charLength": 4,
+                  "snippet": {
+                    "text": "TODO",
+                    "rendered": {
+                      "text": "TODO",
+                      "markdown": "`TODO`"
+                    }
+                  },
+                  "sourceLanguage": "cpp"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "DevSkimSeverity": "ManualReview",
+            "DevSkimConfidence": "High",
+            "tags": [
+              "Hygiene.Comment.Suspicious"
+            ]
+          }
+        },
+        {
+          "ruleId": "DS176209",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Suspicious comment"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/gpu/command_buffer/service/gles2_cmd_decoder.cc"
+                },
+                "region": {
+                  "startLine": 5084,
+                  "startColumn": 7,
+                  "endLine": 5084,
+                  "endColumn": 11,
+                  "charOffset": 174610,
+                  "charLength": 4,
+                  "snippet": {
+                    "text": "TODO",
+                    "rendered": {
+                      "text": "TODO",
+                      "markdown": "`TODO`"
+                    }
+                  },
+                  "sourceLanguage": "cpp"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "DevSkimSeverity": "ManualReview",
+            "DevSkimConfidence": "High",
+            "tags": [
+              "Hygiene.Comment.Suspicious"
+            ]
+          }
+        },
+        {
+          "ruleId": "DS176209",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Suspicious comment"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/gpu/command_buffer/service/gles2_cmd_decoder.cc"
+                },
+                "region": {
+                  "startLine": 4761,
+                  "startColumn": 7,
+                  "endLine": 4761,
+                  "endColumn": 11,
+                  "charOffset": 163796,
+                  "charLength": 4,
+                  "snippet": {
+                    "text": "TODO",
+                    "rendered": {
+                      "text": "TODO",
+                      "markdown": "`TODO`"
+                    }
+                  },
+                  "sourceLanguage": "cpp"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "DevSkimSeverity": "ManualReview",
+            "DevSkimConfidence": "High",
+            "tags": [
+              "Hygiene.Comment.Suspicious"
+            ]
+          }
+        },
+        {
+          "ruleId": "DS176209",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Suspicious comment"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/gpu/command_buffer/service/gles2_cmd_decoder.cc"
+                },
+                "region": {
+                  "startLine": 10293,
+                  "startColumn": 5,
+                  "endLine": 10293,
+                  "endColumn": 9,
+                  "charOffset": 348665,
+                  "charLength": 4,
+                  "snippet": {
+                    "text": "TODO",
+                    "rendered": {
+                      "text": "TODO",
+                      "markdown": "`TODO`"
+                    }
+                  },
+                  "sourceLanguage": "cpp"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "DevSkimSeverity": "ManualReview",
+            "DevSkimConfidence": "High",
+            "tags": [
+              "Hygiene.Comment.Suspicious"
+            ]
+          }
+        },
+        {
+          "ruleId": "DS176209",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Suspicious comment"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/gpu/command_buffer/service/gles2_cmd_decoder.cc"
+                },
+                "region": {
+                  "startLine": 3467,
+                  "startColumn": 7,
+                  "endLine": 3467,
+                  "endColumn": 11,
+                  "charOffset": 121056,
+                  "charLength": 4,
+                  "snippet": {
+                    "text": "TODO",
+                    "rendered": {
+                      "text": "TODO",
+                      "markdown": "`TODO`"
+                    }
+                  },
+                  "sourceLanguage": "cpp"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "DevSkimSeverity": "ManualReview",
+            "DevSkimConfidence": "High",
+            "tags": [
+              "Hygiene.Comment.Suspicious"
+            ]
+          }
+        },
+        {
+          "ruleId": "DS176209",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Suspicious comment"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/gpu/command_buffer/service/gles2_cmd_decoder.cc"
+                },
+                "region": {
+                  "startLine": 2820,
+                  "startColumn": 5,
+                  "endLine": 2820,
+                  "endColumn": 9,
+                  "charOffset": 98583,
+                  "charLength": 4,
+                  "snippet": {
+                    "text": "TODO",
+                    "rendered": {
+                      "text": "TODO",
+                      "markdown": "`TODO`"
+                    }
+                  },
+                  "sourceLanguage": "cpp"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "DevSkimSeverity": "ManualReview",
+            "DevSkimConfidence": "High",
+            "tags": [
+              "Hygiene.Comment.Suspicious"
+            ]
+          }
+        },
+        {
+          "ruleId": "DS176209",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Suspicious comment"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/gpu/command_buffer/service/gles2_cmd_decoder.cc"
+                },
+                "region": {
+                  "startLine": 2163,
+                  "startColumn": 5,
+                  "endLine": 2163,
+                  "endColumn": 9,
+                  "charOffset": 73420,
+                  "charLength": 4,
+                  "snippet": {
+                    "text": "TODO",
+                    "rendered": {
+                      "text": "TODO",
+                      "markdown": "`TODO`"
+                    }
+                  },
+                  "sourceLanguage": "cpp"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "DevSkimSeverity": "ManualReview",
+            "DevSkimConfidence": "High",
+            "tags": [
+              "Hygiene.Comment.Suspicious"
+            ]
+          }
+        },
+        {
+          "ruleId": "DS176209",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Suspicious comment"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/gpu/command_buffer/service/gles2_cmd_decoder.cc"
+                },
+                "region": {
+                  "startLine": 1861,
+                  "startColumn": 5,
+                  "endLine": 1861,
+                  "endColumn": 9,
+                  "charOffset": 63269,
+                  "charLength": 4,
+                  "snippet": {
+                    "text": "TODO",
+                    "rendered": {
+                      "text": "TODO",
+                      "markdown": "`TODO`"
+                    }
+                  },
+                  "sourceLanguage": "cpp"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "DevSkimSeverity": "ManualReview",
+            "DevSkimConfidence": "High",
+            "tags": [
+              "Hygiene.Comment.Suspicious"
+            ]
+          }
+        },
+        {
+          "ruleId": "DS176209",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Suspicious comment"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/gpu/command_buffer/service/gles2_cmd_decoder.cc"
+                },
+                "region": {
+                  "startLine": 1725,
+                  "startColumn": 5,
+                  "endLine": 1725,
+                  "endColumn": 9,
+                  "charOffset": 58041,
+                  "charLength": 4,
+                  "snippet": {
+                    "text": "TODO",
+                    "rendered": {
+                      "text": "TODO",
+                      "markdown": "`TODO`"
+                    }
+                  },
+                  "sourceLanguage": "cpp"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "DevSkimSeverity": "ManualReview",
+            "DevSkimConfidence": "High",
+            "tags": [
+              "Hygiene.Comment.Suspicious"
+            ]
+          }
+        },
+        {
+          "ruleId": "DS176209",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Suspicious comment"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/gpu/command_buffer/service/gles2_cmd_decoder.cc"
+                },
+                "region": {
+                  "startLine": 677,
+                  "startColumn": 5,
+                  "endLine": 677,
+                  "endColumn": 9,
+                  "charOffset": 23144,
+                  "charLength": 4,
+                  "snippet": {
+                    "text": "TODO",
+                    "rendered": {
+                      "text": "TODO",
+                      "markdown": "`TODO`"
+                    }
+                  },
+                  "sourceLanguage": "cpp"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "DevSkimSeverity": "ManualReview",
+            "DevSkimConfidence": "High",
+            "tags": [
+              "Hygiene.Comment.Suspicious"
+            ]
+          }
+        },
+        {
+          "ruleId": "DS176209",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Suspicious comment"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/gpu/command_buffer/service/gles2_cmd_decoder.cc"
+                },
+                "region": {
+                  "startLine": 195,
+                  "startColumn": 3,
+                  "endLine": 195,
+                  "endColumn": 7,
+                  "charOffset": 7798,
+                  "charLength": 4,
+                  "snippet": {
+                    "text": "TODO",
+                    "rendered": {
+                      "text": "TODO",
+                      "markdown": "`TODO`"
+                    }
+                  },
+                  "sourceLanguage": "cpp"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "DevSkimSeverity": "ManualReview",
+            "DevSkimConfidence": "High",
+            "tags": [
+              "Hygiene.Comment.Suspicious"
+            ]
+          }
+        },
+        {
+          "ruleId": "DS176209",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Suspicious comment"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/gpu/command_buffer/service/gles2_cmd_decoder.cc"
+                },
+                "region": {
+                  "startLine": 137,
+                  "startColumn": 7,
+                  "endLine": 137,
+                  "endColumn": 11,
+                  "charOffset": 5100,
+                  "charLength": 4,
+                  "snippet": {
+                    "text": "TODO",
+                    "rendered": {
+                      "text": "TODO",
+                      "markdown": "`TODO`"
+                    }
+                  },
+                  "sourceLanguage": "cpp"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "DevSkimSeverity": "ManualReview",
+            "DevSkimConfidence": "High",
+            "tags": [
+              "Hygiene.Comment.Suspicious"
+            ]
+          }
+        },
+        {
+          "ruleId": "DS176209",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Suspicious comment"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/gpu/command_buffer/service/gles2_cmd_decoder.cc"
+                },
+                "region": {
+                  "startLine": 76,
+                  "startColumn": 3,
+                  "endLine": 76,
+                  "endColumn": 7,
+                  "charOffset": 2955,
+                  "charLength": 4,
+                  "snippet": {
+                    "text": "TODO",
+                    "rendered": {
+                      "text": "TODO",
+                      "markdown": "`TODO`"
+                    }
+                  },
+                  "sourceLanguage": "cpp"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "DevSkimSeverity": "ManualReview",
+            "DevSkimConfidence": "High",
+            "tags": [
+              "Hygiene.Comment.Suspicious"
+            ]
+          }
+        },
+        {
+          "ruleId": "DS176209",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Suspicious comment"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/content/common/gpu/media/vpx_video_decode_accelerator.h"
+                },
+                "region": {
+                  "startLine": 257,
+                  "startColumn": 5,
+                  "endLine": 257,
+                  "endColumn": 9,
+                  "charOffset": 8782,
+                  "charLength": 4,
+                  "snippet": {
+                    "text": "TODO",
+                    "rendered": {
+                      "text": "TODO",
+                      "markdown": "`TODO`"
+                    }
+                  },
+                  "sourceLanguage": "c"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "DevSkimSeverity": "ManualReview",
+            "DevSkimConfidence": "High",
+            "tags": [
+              "Hygiene.Comment.Suspicious"
+            ]
+          }
+        }
+      ],
+      "newlineSequences": [
+        "\r\n",
+        "\n"
+      ]
+    }
+  ]
+}
